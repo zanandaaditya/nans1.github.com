@@ -1,0 +1,569 @@
+body{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+}
+nav{
+    position: fixed;
+}
+.navbar{
+    .active{
+        font-weight: 600;
+    }
+    background-color: #F6F7FB;
+
+}
+.navbar-hal{
+    background-color: #F6F7FB;
+}
+.navbar-brand {
+    img{
+        max-height: 40px;
+    }
+}
+.checkout-class{
+    font-size: 45px;
+
+    color : #05668D;
+}
+form {
+    .btn-login{
+        background-color: #ee9621;
+        color: white;
+    }
+    .btn-login:hover{
+        background-color: #ff8b00;
+        color: white;
+        transition: ease-in 0.5s;
+    }
+    .btn-register{
+
+        color: black;
+    }
+    .btn-register:hover{
+        background-color: #ff8b00;
+        color: white;
+        transition: ease-in 0.5s;
+    }
+}
+
+.search-bar{
+    position: absolute;
+    width: 100%;
+    margin-top: 40px;
+    .btn-searching{
+        background-color: #ee9621;
+        color: white;
+    }
+    .btn-searching:hover{
+        background-color: #ff8b00;
+        color: white;
+        transition: ease-in 0.5s;
+    }
+}
+
+.carousel-web{
+    margin-top: -90px;
+    z-index: -9;
+}
+.carousel-inner{
+
+    margin-top: 20px;
+    img{
+        height: 500px;
+    }
+    .mobile-carousel{
+
+        h1{
+            font-family: 'Playfair Display', sans-serif;
+        }
+        .btn-vacation{
+            background-color: #ee9621;
+            color:white;
+        }
+        .btn-vacation:hover{
+            background-color: #ff8b00;
+        }
+    }
+}
+.pic-title{
+    img{
+        max-height: 400px;
+    }
+    .pic-caption{
+        width: 444px;
+        height: 270px;
+        background-color: #F6F7FB;
+
+        h1{
+            font-weight: 600;
+            color : #05668D;
+            font-size: 60px;
+            font-family: 'Playfair Display', sans-serif;
+        }
+        p{
+            font-size: 35px;
+        }
+    }
+}
+
+//WEB Statistik
+.statistik{
+
+    margin-top: 45px;
+    h2{
+        font-size: 30px;
+        font-weight: 600;
+        color : #05668D;
+        font-family: 'Playfair Display', sans-serif;
+    }
+    p{
+        font-size: 18px;
+    }
+    .card-statistic{
+        width: 150px;
+        height: 150px;
+        padding: 10px 5px;
+        -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        h3{
+            font-size: 60px;
+            color : #05668D;
+        }
+        p{
+            color : #05668D;
+        }
+    }
+
+}
+
+//MOBILE statistik
+.statistik{
+
+    .mobile-card-statistic{
+
+        height: 100px;
+        padding: 2px 4px;
+        -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        h3{
+            font-size: 50px;
+            color : #05668D;
+        }
+        p{
+            color : #05668D;
+        }
+    }
+
+}
+//kateogrie rekomendasi
+.categories{
+    .categories-pic{
+
+    }
+    margin-top: 50px;
+    h4{
+        font-size: 25px;
+        font-weight: 600;
+        color : #05668D;
+        font-family: 'Playfair Display', sans-serif;
+    }
+    p{
+        font-size: 18px;
+    }
+    img {
+
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        }
+
+    img:hover {
+        -webkit-transform: scale(1.05);
+                transform: scale(1.05);
+        text-decoration: none;
+    }
+
+}
+
+.section-wisata{
+    background-color: #F6F7FB;
+    min-height: 300px;
+    margin-top: 70px;
+    margin-bottom: -150px;
+    .section-wisata-heading{
+        margin-top: 20px;
+
+        h4{
+            font-size: 30px;
+            font-weight: 600;
+            color : #05668D;
+            font-family: 'Playfair Display', sans-serif;
+        }
+        p{
+            font-size: 18px;
+        }
+
+    }
+}
+.rekomendasi-wisata{
+    .rekomendasi-wisata-konten{
+        .card-wisata{
+            min-height: 380px;
+            background-color: #000;
+            color: #fff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+        .wisata-loc{
+            font-size: 18px;
+            color: #fff;
+        }
+        .wisata-name{
+            font-size: 26px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .wisata-button{
+            .btn-wisata-details{
+                background-color: #ee9621;
+                color: #fff;
+
+                &:hover{
+                    background-color: #ff8b00;
+                    color: white;
+                }
+            }
+
+        }
+    }
+}
+//section Indonesia
+.section-indonesia{
+    margin-top: 70px;
+    .section-indonesia-heading{
+        margin-top: 20px;
+        h4{
+            font-size: 30px;
+            font-weight: 600;
+            color : #05668D;
+            font-family: 'Playfair Display', sans-serif;
+        }
+        p{
+            font-size: 18px;
+        }
+
+    }
+}
+
+.section-review{
+    margin-top: 50px;
+    background-color:#F6F7FB ;
+    min-height: 700px;
+    h4{
+        font-size: 30px;
+        margin-top: 40px;
+        font-weight: 600;
+        color : #05668D;
+        font-family: 'Playfair Display', sans-serif;
+    }
+    p{
+        font-size: 18px;
+    }
+    .card-review{
+        min-height: 400px;
+        margin-top: 45px;
+        background-color: #fff;
+        padding: 25px;
+    }
+    .name-review{
+        font-size: 26px;
+        color: #05668D;
+        font-weight: 600;
+    }
+}
+
+//breadcrumb
+.section-breadcrumb{
+    .breadcrumb{
+        background: transparent;
+        li a{
+            color: #ff8b00;
+            font-weight: 400;
+            text-decoration: none;
+        }
+        .active{
+            color: #ff8b00;
+            font-weight: 600;
+        }
+    }
+}
+
+
+.section-content-gallery{
+
+    .breadcrumb{
+        background: transparent;
+
+    }
+
+    img a{
+        text-decoration: none;
+    }
+    .section-gallery{
+        margin-top: 40px;
+        background-color: #F6F7FB;
+
+    .img-gallery{
+        background-color: white;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        width: 330px;
+        margin: auto;
+        transform: translateY(-40px);
+        }
+    h4{
+        font-size: 30px;
+        font-weight: 600;
+        color : #05668D;
+        font-family: 'Playfair Display', sans-serif;
+    }
+    }
+    .img-gallery a:hover{
+        text-decoration: none;
+    }
+    .img-gallery a{
+        img{
+            padding: 5px;
+        }
+    }
+    .heading-price{
+        font-size: 27px;
+        color : #05668D;
+        span{
+            font-size:18px;
+        }
+    }
+    .heading-name-lock{
+        h4{
+            font-size: 30px;
+            font-weight: 600;
+            color : #05668D;
+            font-family: 'Playfair Display', sans-serif;
+        }
+    }
+    .img-features img{
+        max-height: 35px;
+    }
+
+        .capt-pic {
+            color : #05668D;
+        }
+
+    .map-location {
+        margin-top: 40px;
+    }
+    .trip-infor{
+        .card{
+            background-color: #F6F7FB;
+            h4{
+                font-size: 20px;
+                font-weight: 600;
+                color : #05668D;
+            }
+            p{
+                color : #05668D;
+            }
+        }
+        h5{
+            font-size: 15px;
+        }
+    }
+    .pic-members img{
+        max-height: 45px;
+
+    }
+    .pic-members .card{
+        max-width: 45px;
+        max-height: 45px;
+    }
+    .btn-booked{
+        background-color: #ee9621;
+    }
+    .btn-booked a{
+
+        color:white;
+        text-decoration: none;
+    }
+    .btn-booked:hover{
+        background-color: #ff8b00;
+    }
+}
+
+.section-checkout{
+    .checkout-content{
+        background-color: #F6F7FB;
+        padding: 10px;
+
+        .heading-content-checkout{
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            color : #05668D;
+        }
+    }
+    .table{
+        tr{
+            color: #05668D;
+        }
+    }
+    .btn-add{
+        align-items: center;
+        background-color: #ee9621;
+        border-radius: 100px;
+        max-width: 200px;
+    }
+    .btn-add a{
+        padding: 5px;
+        color:white;
+        text-decoration: none;
+    }
+    .btn-add:hover{
+        background-color: #ff8b00;
+    }
+}
+
+.btn-add{
+    align-items: center;
+    background-color: #ee9621;
+    border-radius: 100px;
+    max-width: 200px;
+}
+.btn-add a{
+    padding: 5px;
+    color:white;
+    text-decoration: none;
+}
+.btn-add:hover{
+    background-color: #ff8b00;
+}
+
+.section-pay{
+    .content-pay{
+        background-color: #F6F7FB;
+        .card-title{
+            h4{
+                font-size: 20px;
+                font-weight: 600;
+                color : #05668D;
+            }
+        }
+        .parag{
+            color : #05668D;
+            font-weight: 400;
+            span{
+                color: #ee9621;
+            }
+        }
+        .unique{
+            color: #ee9621;
+            font-weight: 400;
+        }
+    }
+    .btn-made-payment{
+        align-items: center;
+        background-color: #ee9621;
+        max-width: 700px;
+        color: white;
+    }
+    .btn-made-payment a{
+        padding: 5px;
+        color:white;
+        text-decoration: none;
+    }
+    .btn-made-payment:hover{
+        background-color: #ff8b00;
+        color: white;
+    }
+
+}
+
+.modal-dialog{
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+        color : #05668D;
+        margin-top: 20px;
+    }
+    p{
+        color : #05668D;
+    }
+}
+
+
+.section-gallery{
+    .bg-gallery{
+        background-color: #05668D;
+        h4{
+            font-weight: 600;
+            font-size: 60px;
+            font-family: 'Playfair Display', sans-serif;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
+
+
+    .bg-gallery-yel{
+        background-color: #ee9621;
+        h4{
+            font-weight: 600;
+            font-size: 60px;
+            font-family: 'Playfair Display', sans-serif;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
+    img{
+        max-height: 465px;
+    }
+}
+
+.section-aboutus{
+    color: #05668D;
+    .aboutus-desc{
+        background-color:#F6F7FB ;
+        border-radius: 2px;
+    }
+    h4{
+        font-weight: 600;
+        font-size: 60px;
+        padding: 5px;
+        font-family: 'Playfair Display', sans-serif;
+    }
+    p{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+.section-footer{
+    margin-top: 50px;
+    background-color:#F6F7FB ;
+    a{
+        text-decoration: none;
+        font-weight: 400;
+        color: #05668D;
+    }
+    input{
+        border-radius: 0;
+    }
+    .btn-send{
+        background-color: #ee9621;
+        border-radius: 0;
+        color: #fff;
+    }
+    p{
+        color: #05668D;
+    }
+}
